@@ -2,6 +2,9 @@
 
 不规则按钮自动换行及单选的功能的简单实现
 
+## Usage
+
+```objective-c
 //初始化
 HLZIrregulatBtn *irregulatBtn = [[HLZIrregulatBtn alloc]initWithFrame:CGRectMake(15, 150, self.view.frame.size.width - 30, self.view.frame.size.height)];
 [self.view addSubview:irregulatBtn];
@@ -19,6 +22,7 @@ NSArray *listArray = @[@"张三",@"李四",@"隔壁老王",@"麻声稀饭",@"啪
 CGSize size = [irregulatBtn returnSize];
 irregulatBtn.frame = CGRectMake(15, 150, self.view.frame.size.width - 30, size.height);
 NSLog(@"%f",size.height);
+```
 
 效果图：
 ![image](https://github.com/haolizi/IrregularButton/blob/master/example.png)
