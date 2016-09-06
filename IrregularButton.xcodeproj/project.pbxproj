@@ -15,6 +15,7 @@
 		A1AEB14A1D7ED05100766F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AEB1481D7ED05100766F5F /* LaunchScreen.storyboard */; };
 		A1AEB1551D7ED05100766F5F /* IrregularButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AEB1541D7ED05100766F5F /* IrregularButtonTests.m */; };
 		A1AEB1601D7ED05100766F5F /* IrregularButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AEB15F1D7ED05100766F5F /* IrregularButtonUITests.m */; };
+		A1AEB16F1D7ED0AB00766F5F /* HLZIrregulatBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AEB16E1D7ED0AB00766F5F /* HLZIrregulatBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A1AEB15B1D7ED05100766F5F /* IrregularButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrregularButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AEB15F1D7ED05100766F5F /* IrregularButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularButtonUITests.m; sourceTree = "<group>"; };
 		A1AEB1611D7ED05100766F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1AEB16D1D7ED0AB00766F5F /* HLZIrregulatBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLZIrregulatBtn.h; sourceTree = "<group>"; };
+		A1AEB16E1D7ED0AB00766F5F /* HLZIrregulatBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLZIrregulatBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		A1AEB1391D7ED05100766F5F /* IrregularButton */ = {
 			isa = PBXGroup;
 			children = (
+				A1AEB16D1D7ED0AB00766F5F /* HLZIrregulatBtn.h */,
+				A1AEB16E1D7ED0AB00766F5F /* HLZIrregulatBtn.m */,
 				A1AEB13D1D7ED05100766F5F /* AppDelegate.h */,
 				A1AEB13E1D7ED05100766F5F /* AppDelegate.m */,
 				A1AEB1401D7ED05100766F5F /* ViewController.h */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1AEB1421D7ED05100766F5F /* ViewController.m in Sources */,
+				A1AEB16F1D7ED0AB00766F5F /* HLZIrregulatBtn.m in Sources */,
 				A1AEB13F1D7ED05100766F5F /* AppDelegate.m in Sources */,
 				A1AEB13C1D7ED05100766F5F /* main.m in Sources */,
 			);
