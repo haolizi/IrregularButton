@@ -20,7 +20,14 @@
     [self.view addSubview:irregulatBtn];
     
     //数据源
-    NSArray *listArray = @[@"张三",@"李四",@"隔壁老王",@"麻声稀饭",@"啪啪",@"irregularButton",@"newline",@"over"];
+    NSArray *listArray = @[@"张三",
+                           @"李四",
+                           @"隔壁老王",
+                           @"麻声稀饭",
+                           @"啪啪",
+                           @"irregularButton",
+                           @"newline",
+                           @"over"];
     [irregulatBtn getArrayDataSourse:listArray];
     
     //回调
